@@ -76,9 +76,9 @@
 export default {
   data() {
     return {
-      hover: false,
+      hover: false
     };
-  },
+  }
 };
 </script>
 <style scoped>

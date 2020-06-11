@@ -33,29 +33,29 @@ import { butter } from "@/buttercms";
 import GoBack from "@/components/GoBack";
 export default {
   components: {
-    GoBack,
+    GoBack
   },
   name: "blog-post",
   data() {
     return {
-      post: {},
+      post: {}
     };
   },
   methods: {
     getPost() {
       butter.post
         .retrieve(this.$route.params.slug)
-        .then((res) => {
+        .then(res => {
           this.post = res.data;
         })
-        .catch((res) => {
+        .catch(res => {
           console.log(res);
         });
-    },
+    }
   },
   created() {
     this.getPost();
-  },
+  }
 };
 </script>
 

@@ -29,7 +29,7 @@
                   href="https://github.com/cliquedev/ejs-client"
                   class="link-style"
                   target="_blank"
-                  >Check Code</b-link
+                  >View Code</b-link
                 ></b-button
               >
             </template>
@@ -53,25 +53,33 @@
                   href="https://github.com/cliquedev/clique"
                   class="link-style"
                   target="_blank"
-                  >Check Code</b-link
+                  >View Code</b-link
                 ></b-button
               >
             </template>
           </b-card>
 
           <b-card
-            title="Title"
-            img-src=""
-            img-alt="Image"
+            title="Portfolio Website"
+            img-src="../assets/portfolioWebsite.png"
+            img-alt="website screenshot"
             img-top
             class="mb-2 black"
           >
             <b-card-text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content.
+              This webapp has been created using VueJs, a javascript framework,
+              I have implemented <em>Vue Router</em> and other key concepts of
+              VueJs in this project.
             </b-card-text>
             <template class="footer" v-slot:footer>
-              <small class="text-muted">Last updated 3 mins ago</small>
+              <b-button variant="outline-success"
+                ><b-link
+                  href="https://github.com/usaidpeerzada/PortfolioWebsite"
+                  class="link-style"
+                  target="_blank"
+                  >View Code</b-link
+                ></b-button
+              >
             </template>
           </b-card>
         </b-card-group>
@@ -92,7 +100,7 @@
 
 <style scoped>
 .projects {
-  background: #69d5b1;
+  background: #e6f5f0;
   padding-bottom: 5rem;
 }
 h3 {

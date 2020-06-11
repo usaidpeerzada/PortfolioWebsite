@@ -57,7 +57,7 @@ export default {
   data() {
     return {
       page_title: "Check out my Blog Posts",
-      posts: [],
+      posts: []
     };
   },
   methods: {
@@ -65,16 +65,16 @@ export default {
       butter.post
         .list({
           page: 1,
-          page_size: 10,
+          page_size: 10
         })
-        .then((res) => {
+        .then(res => {
           this.posts = res.data.data;
         });
-    },
+    }
   },
   created() {
     this.getPosts();
-  },
+  }
 };
 </script>
 <style scoped>

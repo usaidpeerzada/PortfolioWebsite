@@ -1,8 +1,6 @@
 <template>
   <div id="app">
     <div id="nav">
-      <!-- <router-link class="space" to="/">Home</router-link>
-      <router-link class="space" to="/contact">Contact Me</router-link>-->
       <NavBar />
     </div>
     <router-view />
@@ -14,8 +12,8 @@ import NavBar from "@/components/NavBar.vue";
 
 export default {
   components: {
-    NavBar
-  }
+    NavBar,
+  },
 };
 </script>
 
