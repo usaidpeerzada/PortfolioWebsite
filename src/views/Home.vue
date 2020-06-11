@@ -82,6 +82,10 @@ export default {
 };
 </script>
 <style scoped>
+.home {
+  min-height: 100%;
+  height: 100%;
+}
 h3 {
   padding-top: 20px;
   color: white;
@@ -95,7 +99,8 @@ h3 {
   padding: 8rem;
 }
 .myAvatar {
-  width: 12rem;
+  width: 10rem;
+  margin: 0 auto;
   border-radius: 50%;
 }
 .space {
