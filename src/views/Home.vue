@@ -76,9 +76,9 @@
 export default {
   data() {
     return {
-      hover: false
+      hover: false,
     };
-  }
+  },
 };
 </script>
 <style scoped>
@@ -99,7 +99,7 @@ h3 {
   padding: 8rem;
 }
 .myAvatar {
-  width: 10rem;
+  width: 8rem;
   margin: 0 auto;
   border-radius: 50%;
 }

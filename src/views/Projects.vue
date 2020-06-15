@@ -117,6 +117,8 @@ h3 {
 .black {
   height: 35rem;
   border-radius: 2rem;
+  transition: all 0.2s linear;
+  cursor: pointer;
 }
 
 .link-style {
@@ -125,6 +127,7 @@ h3 {
   border-radius: 2rem;
 }
 .black:hover {
-  box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.5);
+  transform: scale(1.01);
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2), 0 1px 15px 0 rgba(0, 0, 0, 0.19);
 }
 </style>
