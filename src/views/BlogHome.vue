@@ -5,7 +5,7 @@
         href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
         rel="stylesheet"
       />
-      <b-container class="bv-example-row">
+      <b-container class="bv-example-row h-100">
         <b-row>
           <b-col>
             <h3>{{ page_title }}</h3>

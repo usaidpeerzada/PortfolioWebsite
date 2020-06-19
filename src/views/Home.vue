@@ -7,12 +7,12 @@
 
     <div class="home-div">
       <b-row class="justify-content-md-center">
-        <b-col cols="12" md="auto">
+        <b-col cols="w-100" md="auto">
           <img class="myAvatar" src="../assets/usaid.png" fluid alt="avatar" />
         </b-col>
       </b-row>
       <b-row class="justify-content-md-center space w">
-        <b-col cols="12" md="auto" xs="12">
+        <b-col cols="w-100">
           <h3>
             Hey There, I'm Usaid, a passionate Full-Stack Developer 👨🏼‍💻 with lots
             of enthusiasm towards photography 📸 and I run on Coffee ☕️
