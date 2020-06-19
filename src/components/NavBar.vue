@@ -34,7 +34,7 @@ export default {};
   font-family: "Unica One", cursive;
 }
 .navbar {
-  background-color: #32b88c;
+  background-color: #028090;
   color: #fff;
 }
 </style>

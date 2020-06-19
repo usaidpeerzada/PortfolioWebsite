@@ -1,6 +1,6 @@
 <template>
   <span class="go-back">
-    <b-button variant="outline-success" @click="goBack">Go Back</b-button>
+    <b-button @click="goBack">Go Back</b-button>
   </span>
 </template>
 
@@ -14,4 +14,13 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped>
+button {
+  color: white;
+  background: #028090;
+  border: 0;
+}
+button:hover {
+  background: #028090;
+}
+</style>

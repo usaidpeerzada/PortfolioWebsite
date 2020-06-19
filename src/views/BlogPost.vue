@@ -9,6 +9,7 @@
     </div>
     <h2>{{ post.data.title }}</h2>
     <h4>{{ post.data.author.first_name }} {{ post.data.author.last_name }}</h4>
+
     <div class="body" v-html="post.data.body"></div>
 
     <!-- <router-link
@@ -68,7 +69,7 @@ h4 {
 }
 #blog-post {
   padding: 2rem 0 25rem 0;
-  background: #69d5b1;
+  background: #e6f5f0;
   color: #3a3a3a;
 }
 .body {
