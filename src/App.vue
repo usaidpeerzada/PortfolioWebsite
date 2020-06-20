@@ -15,23 +15,20 @@ import Footer from "@/components/Footer.vue";
 export default {
   components: {
     NavBar,
-    Footer
-  }
+    Footer,
+  },
 };
 </script>
 
 <style scoped>
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background: #d9f4ff;
 }
 
 #nav a {

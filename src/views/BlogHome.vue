@@ -1,34 +1,33 @@
 <template>
-  <div id="app">
-    <div id="blog-home">
-      <link
-        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
-        rel="stylesheet"
-      />
-      <b-container class="bv-example-row h-100">
-        <b-row>
-          <b-col>
-            <h3>{{ page_title }}</h3>
-          </b-col>
-          <!-- Create `v-for` and apply a `key` for Vue. Here we are using a combination of the slug and index. -->
-        </b-row>
-        <b-row>
-          <b-col>
-            <b-container
-              v-for="(post, index) in posts"
-              :key="post.slug + '_' + index"
-              class="mains"
-              fluid
-            >
-              <router-link :to="'/blog/' + post.slug">
-                <article class="media">
-                  <ol>
-                    <li>
-                      <figure>
-                        <!-- Bind results using a `:` -->
-                        <!-- Use a `v-if`/`else` if there is a `featured_image` -->
+  <div id="blog-home">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <b-container class="bv-example-row">
+      <b-row>
+        <b-col>
+          <h3>{{ page_title }}</h3>
+        </b-col>
+        <!-- Create `v-for` and apply a `key` for Vue. Here we are using a combination of the slug and index. -->
+      </b-row>
+      <b-row>
+        <b-col>
+          <b-container
+            v-for="(post, index) in posts"
+            :key="post.slug + '_' + index"
+            class="mains"
+            fluid
+          >
+            <router-link :to="'/blog/' + post.slug">
+              <article class="media">
+                <ol>
+                  <li>
+                    <figure>
+                      <!-- Bind results using a `:` -->
+                      <!-- Use a `v-if`/`else` if there is a `featured_image` -->
 
-                        <!-- <img
+                      <!-- <img
                           v-if="post.featured_image"
                           :src="post.featured_image"
                           alt=""
@@ -39,17 +38,16 @@
                           src="http://via.placeholder.com/250x250"
                           alt=""
                         /> -->
-                      </figure>
-                      <h2 class="title">{{ post.title }}</h2>
-                    </li>
-                  </ol>
-                </article>
-              </router-link>
-            </b-container>
-          </b-col>
-        </b-row>
-      </b-container>
-    </div>
+                    </figure>
+                    <h2 class="title">{{ post.title }}</h2>
+                  </li>
+                </ol>
+              </article>
+            </router-link>
+          </b-container>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 <script>

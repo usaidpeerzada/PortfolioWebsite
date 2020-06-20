@@ -1,5 +1,5 @@
 <template>
-  <div id="blog-post">
+  <div id="blog-post" class="w-100">
     <link
       href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Merriweather&family=Merriweather+Sans&family=Nunito&family=Nunito+Sans&family=Quattrocento&family=Quattrocento+Sans&family=Roboto&family=Roboto+Mono&family=Roboto+Slab&display=swap"
       rel="stylesheet"
