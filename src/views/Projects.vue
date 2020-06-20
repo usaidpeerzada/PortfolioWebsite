@@ -1,5 +1,5 @@
 <template>
-  <div class="container projects w-screen">
+  <div class="container projects">
     <link
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
       rel="stylesheet"
@@ -7,7 +7,7 @@
     <h3>Here are some of the projects that I have worked on.</h3>
 
     <div class="flex flex-wrap mb-4 sm:inline-flex md:block lg:flex xl:flex">
-      <div class="w-full lg:w-auto mb-4 pl-4">
+      <div class="w-full lg:w-auto mb-4 ">
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-200">
           <img class="w-full" src="../assets/crud.png" alt="crud app img" />
           <div class="px-6 py-4">
@@ -40,7 +40,7 @@
         </div>
       </div>
 
-      <div class="w-full lg:w-auto mb-4 pl-4">
+      <div class="w-full lg:w-auto mb-4">
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-200">
           <img class="w-full" src="../assets/clique.png" alt="crud app img" />
           <div class="px-6 py-4">
@@ -75,7 +75,7 @@
         </div>
       </div>
 
-      <div class="w-full lg:w-auto mb-2 pl-4">
+      <div class="w-full lg:w-auto mb-2">
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-200">
           <img
             class="w-full"
@@ -141,10 +141,7 @@ button {
 button:hover {
   background: #028090;
 }
-img {
-  border-radius: 0.5rem;
-}
-a {
+s a {
   color: white;
   text-decoration: none;
 }

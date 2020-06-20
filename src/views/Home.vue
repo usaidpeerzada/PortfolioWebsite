@@ -23,7 +23,7 @@
             class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline"
             >I'm a Full Stack Developer</a
           >
-          <p class="mt-2 text-gray-200 text-lg">
+          <p class="mt-2 text-gray-200 text-md -mx-12">
             I love my laptop and coffee, passionate about coding and learning
             new things, somedays I click pictures of beautiful nature.
           </p>
