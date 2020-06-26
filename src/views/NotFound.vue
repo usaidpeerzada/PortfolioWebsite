@@ -1,10 +1,13 @@
 <template>
-  <div>
-    <h1>Not Found</h1>
-    <p>
-      Oops! we couldn't find that page. Try
-      <router-link :to="{ name: 'Home' }">Home</router-link>
-    </p>
+  <div class="container">
+    <div class="sm:w-full mb-4">
+      <img src="../assets/pagenotfound.png" alt="404img" class="fimg" />
+      <h1>Not Found</h1>
+      <p>
+        Oops! we couldn't find that page. Try
+        <router-link to="/"> <b>Home</b> </router-link>
+      </p>
+    </div>
   </div>
 </template>
 
@@ -13,7 +16,8 @@ export default {};
 </script>
 
 <style scoped>
-div {
-  padding: 2rem;
+.fimg {
+  width: 62rem;
+  margin: 0 auto;
 }
 </style>

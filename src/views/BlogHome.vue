@@ -16,7 +16,6 @@
           <b-container
             v-for="(post, index) in posts"
             :key="post.slug + '_' + index"
-            class="mains"
             fluid
           >
             <router-link :to="'/blog/' + post.slug">
@@ -93,9 +92,5 @@ h3 {
   font-family: "Amatic SC", cursive;
   padding: 1.2rem 0 3rem 0;
   color: #747474;
-}
-#blog-home {
-  padding-bottom: 25rem;
-  background-color: #e6f5f0;
 }
 </style>

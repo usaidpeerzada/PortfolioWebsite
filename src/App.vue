@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="sm:w-full">
     <div id="nav">
       <NavBar />
     </div>
@@ -15,20 +15,17 @@ import Footer from "@/components/Footer.vue";
 export default {
   components: {
     NavBar,
-    Footer,
-  },
+    Footer
+  }
 };
 </script>
 
-<style scoped>
+<style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  min-width: 100%;
-  min-height: 100%;
-  background: #d9f4ff;
 }
 
 #nav a {

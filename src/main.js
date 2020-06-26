@@ -8,6 +8,7 @@ import "bootstrap-vue/dist/bootstrap-vue.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import "@fortawesome/fontawesome-free/js/all.js";
 import "@/assets/css/tailwind.css";
+require("dotenv").config();
 
 Vue.config.productionTip = false;
 Vue.use(BootstrapVue);

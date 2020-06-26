@@ -4,7 +4,9 @@
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
       rel="stylesheet"
     />
-    <h3 class="p-2">Here are some of the projects that I have worked on.</h3>
+    <h3 class="p-4 font-large">
+      Here are some of the projects that I have worked on.
+    </h3>
 
     <div class="flex flex-wrap ">
       <div class="mb-4 flex pl-4">
@@ -120,18 +122,13 @@
 <script></script>
 
 <style scoped>
-body {
-  background: #d9f4ff;
-}
 .projects {
-  background: #d9f4ff;
   padding-bottom: 7rem;
   color: #747474;
 }
 h3 {
   font-family: "Amatic SC", cursive;
-  padding: 1.5em;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 button {
   background: #028090;
@@ -142,7 +139,7 @@ button:hover {
   background: #028090;
 }
 
-s a {
+a {
   color: white;
   text-decoration: none;
 }

@@ -6,7 +6,7 @@
     />
     <div>
       <b-navbar toggleable="lg" type="dark" class="navbar">
-        <b-navbar-brand class="brand font-weight-bold" href="/"
+        <b-navbar-brand class="brand font-weight-bold"
           >Usaid Peerzada</b-navbar-brand
         >
 
@@ -14,9 +14,24 @@
 
         <b-collapse id="nav-collapse" is-nav class="font-weight-bold">
           <b-navbar-nav class="ml-auto">
-            <b-nav-item href="/">Home</b-nav-item>
-            <b-nav-item href="/projects">Projects</b-nav-item>
-            <b-nav-item href="/blog">Blog</b-nav-item>
+            <b-nav-item
+              ><router-link to="/" class="link">Home</router-link></b-nav-item
+            >
+            <b-nav-item
+              ><router-link to="/projects" class="link"
+                >Projects</router-link
+              ></b-nav-item
+            >
+            <b-nav-item
+              ><router-link to="/blog" class="link"
+                >Blog</router-link
+              ></b-nav-item
+            >
+            <b-nav-item
+              ><router-link to="/resume" class="link"
+                >Resume</router-link
+              ></b-nav-item
+            >
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
@@ -35,6 +50,10 @@ export default {};
 }
 .navbar {
   background-color: #028090;
+  color: #fff;
+}
+.link {
+  text-decoration: none;
   color: #fff;
 }
 </style>
