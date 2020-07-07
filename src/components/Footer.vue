@@ -15,5 +15,9 @@ footer {
   color: white;
   letter-spacing: 0.2rem;
   background: #008a96;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 </style>

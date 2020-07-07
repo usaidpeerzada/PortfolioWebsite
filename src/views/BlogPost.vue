@@ -1,5 +1,5 @@
 <template>
-  <div id="blog-post" class="w-100">
+  <div id="blog-post" class="container">
     <link
       href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Merriweather&family=Merriweather+Sans&family=Nunito&family=Nunito+Sans&family=Quattrocento&family=Quattrocento+Sans&family=Roboto&family=Roboto+Mono&family=Roboto+Slab&display=swap"
       rel="stylesheet"
@@ -7,8 +7,12 @@
     <div class="goback">
       <GoBack />
     </div>
-    <h2>{{ post.data.title }}</h2>
-    <h4>{{ post.data.author.first_name }} {{ post.data.author.last_name }}</h4>
+    <div>
+      <h2>{{ post.data.title }}</h2>
+      <h4>
+        {{ post.data.author.first_name }} {{ post.data.author.last_name }}
+      </h4>
+    </div>
 
     <div class="body" v-html="post.data.body"></div>
 
@@ -67,10 +71,16 @@ h2 {
 h4 {
   font-family: "Nunito", sans-serif;
 }
-#blog-post {
+.col {
+  height: 720px;
+}
+.row {
   padding: 2rem 0 25rem 0;
   background: #e6f5f0;
   color: #3a3a3a;
+}
+.media {
+  padding-bottom: 50rem;
 }
 .body {
   padding: 0 2rem;
