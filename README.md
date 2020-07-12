@@ -23,5 +23,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Just clone and you can use it in your personal projects.
