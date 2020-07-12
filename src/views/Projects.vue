@@ -34,7 +34,9 @@
               >#EJS</span
             >
             <button class="text-white font-bold py-2 px-4 rounded-full">
-              <a href="https://github.com/cliquedev/ejs-client" target="_blank"
+              <a
+                href="https://github.com/usaidpeerzada/Bookstore-CRUD-App"
+                target="_blank"
                 >View Code
               </a>
             </button>
@@ -115,6 +117,115 @@
           </div>
         </div>
       </div>
+      <!-- New Projects Start -->
+      <div class="w-full lg:w-auto mb-4 pl-4">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-200">
+          <img
+            class="w-full"
+            src="../assets/reactClone.png"
+            alt="react app img"
+          />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 ">
+              Google Keep Clone using ReactJs
+            </div>
+            <p class="text-gray-700 text-base">
+              This is a google keep notes clone webapp creted in ReactJs, It
+              uses some core concepts of ReactJs Framework.
+            </p>
+          </div>
+          <div class="px-6 py-4">
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+              >#ReactJs</span
+            >
+            <br />
+            <button class="text-white font-bold py-2 px-4 rounded-full">
+              <a
+                href="https://github.com/usaidpeerzada/GoogleKeepClone-ReactJs"
+                target="_blank"
+                >View Code
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full lg:w-auto mb-4 pl-4">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-200">
+          <img class="w-full" src="../assets/todo.png" alt="todo app img" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 ">
+              ToDo WebApp
+            </div>
+            <p class="text-gray-700 text-base">
+              This is a fullstack todolist app created using EJS, MongoDB,
+              ExpressJs and NodeJs. You can created todos and delete them in
+              this app.
+            </p>
+          </div>
+          <div class="px-6 py-4">
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+              >#EJS</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+              >#MongoDB</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+              >#NodeJs</span
+            >
+
+            <button class="text-white font-bold py-2 px-4 rounded-full">
+              <a
+                href="https://github.com/usaidpeerzada/ToDoList-FullStack"
+                target="_blank"
+                >View Code
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full lg:w-auto mb-4 pl-4">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-200">
+          <img class="w-full" src="../assets/journal.png" alt="todo app img" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 ">
+              My Journal
+            </div>
+            <p class="text-gray-700 text-base">
+              This is a fullstack journal created using EJS, Mongoose, NodeJs,
+              you can store your entries in this application.
+            </p>
+          </div>
+          <div class="px-6 py-4">
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+              >#EJS</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+              >#Mongoose</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+              >#NodeJs</span
+            >
+
+            <button class="text-white font-bold py-2 px-4 rounded-full">
+              <a
+                href="https://github.com/usaidpeerzada/MyJournal-FullStack"
+                target="_blank"
+                >View Code
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- New Projects End -->
     </div>
   </div>
 </template>
@@ -128,7 +239,7 @@
 }
 h3 {
   font-family: "Amatic SC", cursive;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 button {
   background: #028090;

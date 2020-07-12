@@ -92,5 +92,6 @@ h3 {
   font-family: "Amatic SC", cursive;
   padding: 1.2rem 0 3rem 0;
   color: #747474;
+  font-size: 2rem;
 }
 </style>

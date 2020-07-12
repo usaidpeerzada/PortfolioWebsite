@@ -4,10 +4,10 @@
       href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Merriweather&family=Merriweather+Sans&family=Nunito&family=Nunito+Sans&family=Quattrocento&family=Quattrocento+Sans&family=Roboto&family=Roboto+Mono&family=Roboto+Slab&display=swap"
       rel="stylesheet"
     />
-    <div class="goback">
-      <GoBack />
-    </div>
     <div>
+      <div class="goback">
+        <GoBack />
+      </div>
       <h2>{{ post.data.title }}</h2>
       <h4>
         {{ post.data.author.first_name }} {{ post.data.author.last_name }}
@@ -87,6 +87,6 @@ h4 {
 }
 .goback {
   text-align: left;
-  margin: 0 1.5rem;
+  margin-top: 2rem;
 }
 </style>

@@ -46,11 +46,6 @@
           ></a>
         </div>
         <div class="text-gray-700 text-center px-1 py-2 m-2">
-          <a href="tel:+918825014161" target="_blank"
-            ><i class="fab fa-2x fa-whatsapp"></i
-          ></a>
-        </div>
-        <div class="text-gray-700 text-center px-1 py-2 m-2">
           <a href="https://t.me/usaidev" target="_blank"
             ><i class="fab fa-2x fa-telegram"></i
           ></a>
