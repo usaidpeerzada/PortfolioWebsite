@@ -1,5 +1,5 @@
 <template>
-  <div class="container projects">
+  <div class="container mx-auto px-8 projects">
     <link
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
       rel="stylesheet"
@@ -10,7 +10,7 @@
 
     <div class="flex flex-wrap ">
       <div class="mb-4 flex pl-4">
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-200">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-100">
           <img class="w-full" src="../assets/crud.png" alt="crud app img" />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">Bookstore CRUD App</div>
@@ -45,7 +45,7 @@
       </div>
 
       <div class="w-full lg:w-auto mb-4 pl-4">
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-200">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-100">
           <img class="w-full" src="../assets/clique.png" alt="crud app img" />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 ">
@@ -80,7 +80,7 @@
       </div>
 
       <div class="w-full lg:w-auto mb-2 pl-4">
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-200">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-100">
           <img
             class="w-full"
             src="../assets/portfolioWebsite.png"
@@ -103,10 +103,10 @@
               class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
               >#TailwindCSS</span
             >
-            <!-- <span
+            <span
               class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
-              >#GraphQL</span
-            > -->
+              >#Axios</span
+            >
             <button class="text-white font-bold py-2 px-4 rounded-full">
               <a
                 href="https://github.com/usaidpeerzada/PortfolioWebsite"
@@ -119,7 +119,7 @@
       </div>
       <!-- New Projects Start -->
       <div class="w-full lg:w-auto mb-4 pl-4">
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-200">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-100">
           <img
             class="w-full"
             src="../assets/reactClone.png"
@@ -152,7 +152,7 @@
       </div>
 
       <div class="w-full lg:w-auto mb-4 pl-4">
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-200">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-100">
           <img class="w-full" src="../assets/todo.png" alt="todo app img" />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 ">
@@ -190,7 +190,7 @@
       </div>
 
       <div class="w-full lg:w-auto mb-4 pl-4">
-        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-200">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-100">
           <img class="w-full" src="../assets/journal.png" alt="todo app img" />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 ">

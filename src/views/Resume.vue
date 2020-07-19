@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mx-auto">
     <div>
       <img src="../assets/res.png" alt="my resume" />
     </div>

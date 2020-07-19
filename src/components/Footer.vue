@@ -1,25 +1,23 @@
 <template>
-  <div class="footer">
-    <footer class="foot">
-      <p><b>USAID</b> © 2020</p>
-    </footer>
-  </div>
+  <footer class="footer">
+    <p class="text-teal-200"><b>USAID</b> © 2020</p>
+  </footer>
 </template>
 
 <script></script>
 
 <style scoped>
 .footer {
-  padding: 1.5rem 0 0.5rem;
-  text-align: center;
-  color: white;
+  position: relative;
+  margin-top: -55px;
   letter-spacing: 0.2rem;
-
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  text-align: center;
+  height: 55px;
+  clear: both;
+  background-color: red;
   background: #008a96;
-  color: white;
+}
+p {
+  padding-top: 15px;
 }
 </style>

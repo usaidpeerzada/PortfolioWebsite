@@ -1,10 +1,5 @@
 <template>
   <div class="home">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Bungee&family=Merriweather&family=Merriweather+Sans&family=Nunito&family=Nunito+Sans:wght@400;900&family=Quattrocento&family=Quattrocento+Sans&family=Roboto&family=Roboto+Mono&family=Roboto+Slab&display=swap"
-      rel="stylesheet"
-    />
-
     <div class="container mx-auto home-div text-center">
       <div class="md:flex center ">
         <div class="md:flex-shrink-0">
@@ -18,12 +13,12 @@
           <div class="uppercase tracking-wide text-sm text-gray-200 font-bold">
             Hi, I'm Usaid
           </div>
-          <a
-            href="#"
-            class="block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline"
-            >I'm a Full Stack Developer</a
+          <p
+            class="block mt-1 text-lg leading-tight font-semibold text-gray-300 hover:underline"
           >
-          <p class="mt-2 text-gray-200 text-md -mx-12">
+            I'm a Full Stack Developer
+          </p>
+          <p class="mt-2 text-gray-200 text-md -mx-7">
             I love my laptop and coffee, passionate about coding and learning
             new things, somedays I click pictures of beautiful nature.
           </p>
@@ -67,23 +62,12 @@
 
 <script>
 // @ is an alias to /src
-
-export default {
-  data() {
-    return {
-      hover: false
-    };
-  }
-};
+export default {};
 </script>
+
 <style scoped>
 .home {
   background-color: #00a896;
-}
-h3 {
-  padding-top: 20px;
-  color: white;
-  font-family: "Nunito Sans", sans-serif;
 }
 .home-div {
   padding: 8rem;
