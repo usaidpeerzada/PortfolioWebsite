@@ -5,7 +5,7 @@
         <div class="md:flex-shrink-0">
           <img
             class="rounded-lg md:w-56"
-            src="../assets/usaid.png"
+            src="../assets/usaid1.png"
             alt="avatar"
           />
         </div>

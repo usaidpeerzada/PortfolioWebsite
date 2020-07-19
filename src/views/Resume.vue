@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto sm:max-h-screen">
     <div>
       <img src="../assets/res.png" alt="my resume" />
     </div>
