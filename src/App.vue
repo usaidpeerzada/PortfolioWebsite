@@ -1,23 +1,18 @@
 <template>
-  <div id="app" class="sm:w-full">
-    <div id="nav">
-      <NavBar />
-    </div>
-    <router-view />
+  <div id="app">
     <vue-progress-bar></vue-progress-bar>
-    <Footer />
+    <router-view />
+
+    <!-- <div class="">
+       <Footer />
+    </div> -->
   </div>
 </template>
 
 <script>
-import NavBar from "@/components/NavBar.vue";
-import Footer from "@/components/Footer.vue";
+// import Footer from "@/components/Footer.vue";
 
 export default {
-  components: {
-    NavBar,
-    Footer
-  },
   mounted() {
     this.$Progress.finish();
   },

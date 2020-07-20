@@ -9,7 +9,7 @@
 <style scoped>
 .footer {
   position: relative;
-  margin-top: -55px;
+  margin-top: -45px;
   letter-spacing: 0.2rem;
   text-align: center;
   height: 55px;

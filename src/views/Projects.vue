@@ -1,5 +1,6 @@
 <template>
-  <div class="container mx-auto px-8 projects">
+  <div class="container mx-auto px-5 mb-0 projects">
+    <NavBar />
     <link
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
       rel="stylesheet"
@@ -230,7 +231,15 @@
   </div>
 </template>
 
-<script></script>
+<script>
+import NavBar from "@/components/NavBar.vue";
+
+export default {
+  components: {
+    NavBar
+  }
+};
+</script>
 
 <style scoped>
 .projects {

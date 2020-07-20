@@ -1,18 +1,20 @@
 <template>
-  <div class="container mx-auto sm:max-h-full">
-    <div>
+  <div class="container mx-auto sm:h-full">
+    <NavBar />
+    <div class="h-full w-full">
       <img src="../assets/res.png" alt="my resume" />
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+import NavBar from "@/components/NavBar.vue";
+
+export default {
+  components: {
+    NavBar
+  }
+};
 </script>
 
-<style scoped>
-img {
-  width: 60rem;
-  margin: 0 auto;
-}
-</style>
+<style scoped></style>

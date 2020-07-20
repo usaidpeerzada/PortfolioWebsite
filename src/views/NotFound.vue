@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <div class="sm:w-full mb-4">
+  <div class="container mx-auto">
+    <div class="mb-10">
       <img src="../assets/pagenotfound.png" alt="404img" class="fimg" />
       <h1>Not Found</h1>
     </div>
