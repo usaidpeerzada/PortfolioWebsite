@@ -94,7 +94,7 @@
               >
                 <div class="px-5 pt-4 flex items-center justify-between">
                   <div>
-                    <h4 class="pb-2 text-teal-700">Usaid Peerzada</h4>
+                    <h4 class="pb-2 font-bold text-teal-700">Usaid Peerzada</h4>
                   </div>
                   <div class="-mr-2">
                     <button
