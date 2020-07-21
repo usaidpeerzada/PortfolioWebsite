@@ -1,11 +1,7 @@
 <template>
   <div class="container mx-auto px-5 mb-0 projects">
     <NavBar />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <h3 class="p-4 font-large">
+    <h3 class="p-4 mb-4 font-bold text-xl text-teal-600">
       Here are some of the projects that I have worked on.
     </h3>
 
@@ -34,8 +30,11 @@
               class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
               >#EJS</span
             >
-            <button class="text-white font-bold py-2 px-4 rounded-full">
+            <button
+              class="text-white bg-teal-700 mt-4 border-transparent hover:bg-teal-600 font-bold py-2 px-4 rounded-md"
+            >
               <a
+                text-white
                 href="https://github.com/usaidpeerzada/Bookstore-CRUD-App"
                 target="_blank"
                 >View Code
@@ -71,7 +70,9 @@
               class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
               >#Bootstrap</span
             >
-            <button class="text-white font-bold py-2 px-4 rounded-full">
+            <button
+              class="text-white bg-teal-700 mt-4 border-transparent hover:bg-teal-600 font-bold py-2 px-4 rounded-md"
+            >
               <a href="https://github.com/cliquedev/clique" target="_blank"
                 >View Code
               </a>
@@ -108,7 +109,9 @@
               class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
               >#Axios</span
             >
-            <button class="text-white font-bold py-2 px-4 rounded-full">
+            <button
+              class="text-white bg-teal-700 mt-4 border-transparent hover:bg-teal-600 font-bold py-2 px-4 rounded-md"
+            >
               <a
                 href="https://github.com/usaidpeerzada/PortfolioWebsite"
                 target="_blank"
@@ -141,7 +144,9 @@
               >#ReactJs</span
             >
             <br />
-            <button class="text-white font-bold py-2 px-4 rounded-full">
+            <button
+              class="text-white bg-teal-700 mt-4 border-transparent hover:bg-teal-600 font-bold py-2 px-4 rounded-md"
+            >
               <a
                 href="https://github.com/usaidpeerzada/GoogleKeepClone-ReactJs"
                 target="_blank"
@@ -179,7 +184,9 @@
               >#NodeJs</span
             >
 
-            <button class="text-white font-bold py-2 px-4 rounded-full">
+            <button
+              class="text-white bg-teal-700 mt-4 border-transparent hover:bg-teal-600 font-bold py-2 px-4 rounded-md"
+            >
               <a
                 href="https://github.com/usaidpeerzada/ToDoList-FullStack"
                 target="_blank"
@@ -216,7 +223,9 @@
               >#NodeJs</span
             >
 
-            <button class="text-white font-bold py-2 px-4 rounded-full">
+            <button
+              class="text-white bg-teal-700 mt-4 border-transparent hover:bg-teal-600 font-bold py-2 px-4 rounded-md"
+            >
               <a
                 href="https://github.com/usaidpeerzada/MyJournal-FullStack"
                 target="_blank"
@@ -245,22 +254,5 @@ export default {
 .projects {
   padding-bottom: 7rem;
   color: #747474;
-}
-h3 {
-  font-family: "Amatic SC", cursive;
-  font-size: 2rem;
-}
-button {
-  background: #028090;
-  border: 0;
-  margin-top: 1rem;
-}
-button:hover {
-  background: #028090;
-}
-
-a {
-  color: white;
-  text-decoration: none;
 }
 </style>

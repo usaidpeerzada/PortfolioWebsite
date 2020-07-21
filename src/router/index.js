@@ -3,29 +3,28 @@ import VueRouter from "vue-router";
 
 Vue.use(VueRouter);
 
-const routes = [
-  {
+const routes = [{
     path: "/",
     name: "home",
-    component: () => import(/* webpackChunkName: "Home" */ "../views/Home.vue")
+    component: () => import( /* webpackChunkName: "Home" */ "../views/Home.vue")
   },
   {
     path: "/projects",
     name: "projects",
     component: () =>
-      import(/* webpackChunkName: "Projects" */ "../views/Projects.vue")
+      import( /* webpackChunkName: "Projects" */ "../views/Projects.vue")
   },
   {
     path: "/resume",
     name: "resume",
     component: () =>
-      import(/* webpackChunkName: "NotFound" */ "../views/Resume.vue")
+      import( /* webpackChunkName: "NotFound" */ "../views/Resume.vue")
   },
   {
     path: "*",
     name: "NotFound",
     component: () =>
-      import(/* webpackChunkName: "NotFound" */ "../views/NotFound.vue")
+      import( /* webpackChunkName: "NotFound" */ "../views/NotFound.vue")
   }
 ];
 

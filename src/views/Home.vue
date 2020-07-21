@@ -176,7 +176,7 @@
                 <div class="rounded-md shadow">
                   <a
                     href="mailto:usaidpeerzada@gmail.com"
-                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-teal-600 hover:bg-teal-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-teal transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-teal-600 hover:bg-teal-500 focus:outline-none focus:border-teal-700 focus:shadow-outline-teal transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                     target="_blank"
                   >
                     Mail
@@ -185,7 +185,7 @@
                 <div class="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="https://www.github.com/usaidpeerzada"
-                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-teal-100 bg-teal-300 hover:text-teal-600 hover:bg-teal-50 focus:outline-none focus:shadow-outline-teal focus:border-teal-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                    class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-teal-500 bg-teal-300 hover:text-teal-600 hover:bg-teal-200 focus:outline-none focus:shadow-outline-teal focus:border-teal-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
                     target="_blank"
                   >
                     Github
@@ -247,9 +247,5 @@ export default {
 .home-div-bottom {
   padding: 5.5rem;
   background-color: #02c39a;
-}
-
-a {
-  color: #c8e7ff;
 }
 </style>
