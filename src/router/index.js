@@ -15,6 +15,10 @@ const routes = [{
       import( /* webpackChunkName: "Projects" */ "../views/Projects.vue")
   },
   {
+     path: '/blog',
+     beforeEnter() {location.href = 'https://usaidpeerzada.github.io/my-blog/'}
+   },
+  {
     path: "/resume",
     name: "resume",
     component: () =>

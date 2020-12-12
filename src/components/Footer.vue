@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer class="footer h-10">
     <p class="text-teal-200"><b>USAID</b> © 2020</p>
   </footer>
 </template>

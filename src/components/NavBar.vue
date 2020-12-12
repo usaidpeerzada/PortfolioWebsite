@@ -56,6 +56,13 @@
               >Projects
             </router-link>
             <router-link
+              to="/blog"
+              target= '_blank'
+              class="ml-8 font-medium text-teal-500 hover:text-teal-900 transition duration-150 ease-in-out"
+            >
+            Blog
+            </router-link>
+            <router-link
               to="/resume"
               class="ml-8 font-medium text-teal-500 hover:text-teal-900 transition duration-150 ease-in-out"
             >
