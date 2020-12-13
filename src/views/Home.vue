@@ -156,6 +156,11 @@
                     >Projects</router-link
                   >
                   <router-link
+                    to="/blog"
+                    class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-teal-500 hover:text-teal-300 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                    >Blog</router-link
+                  >
+                  <router-link
                     to="/resume"
                     class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-teal-500 hover:text-teal-300 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                   >
