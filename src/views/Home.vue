@@ -2,9 +2,9 @@
   <div>
   <div id="app" class="flex flex-col h-screen justify-between">
     <div class="relative bg-white overflow-hidden">
-      <div class="max-w-screen-xl  mx-auto">
+      <div class="max-w-screen-xl mx-auto">
         <div
-          class="relative lg:h-screen md:h-screen sm:h-screen z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
+          class="relative lg:h-screen sm:h-screen z-10 pb-8 bg-white lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
         >
           <svg
             class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
@@ -224,9 +224,10 @@
           alt=""
         />
       </div>
-    </div>
-    <div class="bg-teal-300 p-16">
-      <div class="flex flex-row justify-center">
+    </div> 
+    <div class="">
+    <div class="bg-teal-300 p-12">
+      <div class="flex flex-row justify-center m-auto p-auto">
         <div class="text-center px-1 py-2 m-2">
           <a href="https://www.twitter.com/Usaidamin" target="_blank">
             <i class="fab fa-2x fa-twitter text-teal-600"></i
@@ -244,7 +245,8 @@
         </div>
       </div>
     </div>
-  </div>
+    </div>
+    </div>
   <Footer />
   </div>
 </template>
