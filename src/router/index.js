@@ -16,7 +16,7 @@ const routes = [{
   },
   {
      path: '/blog',
-     beforeEnter() {location.href = 'https://usaidpeerzada.github.io/my-blog/'}
+     beforeEnter() {location.href = 'https://usaid-blog.netlify.com'}
    },
   {
     path: "/resume",
