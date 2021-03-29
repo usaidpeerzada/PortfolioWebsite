@@ -57,7 +57,6 @@
             </router-link>
             <router-link
               to="/blog"
-              target= '_blank'
               class="ml-8 font-medium text-teal-500 hover:text-teal-900 transition duration-150 ease-in-out"
             >
             Blog
@@ -166,9 +165,9 @@
 export default {
   data() {
     return {
-      isOpen: false
+      isOpen: false,
     };
-  }
+  },
 };
 </script>
 

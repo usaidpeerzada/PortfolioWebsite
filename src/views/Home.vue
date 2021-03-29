@@ -181,16 +181,16 @@
               >
                 Usaid,
               </h3>
-              <h5 class="text-2xl text-teal-400 tracking-tight">
+              <h5 class="underline font-medium text-2xl text-teal-400 tracking-tight">
                 a full stack developer.
               </h5>
               <p
-                class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+                class="mt-3 text-base font-medium text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               >
                 I love my laptop and coffee, passionate about coding and
-                learning new things, somedays I click pictures of beautiful
-                nature.
+                learning new things.
               </p>
+              <p class="mt-3 text-base font-semibold text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">Want to work with me? Hit the mail button and let's chat!</p>
               <div
                 class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
               >
@@ -226,7 +226,7 @@
       </div>
     </div> 
     <div class="">
-    <div class="bg-teal-300 p-12">
+    <div class="bg-teal-300  mb-12">
       <div class="flex flex-row justify-center m-auto p-auto">
         <div class="text-center px-1 py-2 m-2">
           <a href="https://www.twitter.com/Usaidamin" target="_blank">

@@ -1,6 +1,6 @@
 <template>
   <footer class="footer h-10">
-    <p class="text-teal-200"><b>USAID</b> © 2020</p>
+    <p class="text-teal-200"><b>USAID</b> © 2021</p>
   </footer>
 </template>
 
