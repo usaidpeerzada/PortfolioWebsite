@@ -46,6 +46,41 @@
 
       <div class="w-full lg:w-auto mb-4 pl-4">
         <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-100">
+          <img class="w-full" style="height: 210px; width: 210px; margin: 0 auto; margin-top: 10px" src="../assets/smapp.png" alt="crud app img" />
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2 ">
+              SmappCare 
+            </div>
+            <p class="text-gray-700 text-base">
+              This is my first android app. I created it to store prescriptions, add medicine reminders, show covid cases and much more.
+            </p>
+          </div>
+          <div class="px-6 py-4">
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+              >#ReactNative</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2"
+              >#NodeJs</span
+            >
+            <span
+              class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700"
+              >#Mongoose</span
+            >
+            <button
+              class="text-white bg-teal-700 mt-4 border-transparent hover:bg-teal-600 font-bold py-2 px-4 rounded-md"
+            >
+              <a href="https://play.google.com/store/apps/details?id=com.medappproject" target="_blank"
+                >View on Play Store
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full lg:w-auto mb-4 pl-4">
+        <div class="max-w-sm rounded overflow-hidden shadow-lg bg-teal-100">
           <img class="w-full" src="../assets/clique.png" alt="crud app img" />
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 ">
