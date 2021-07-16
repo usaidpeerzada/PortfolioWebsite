@@ -72,7 +72,7 @@
               class="text-white bg-teal-700 mt-4 border-transparent hover:bg-teal-600 font-bold py-2 px-4 rounded-md"
             >
               <a href="https://play.google.com/store/apps/details?id=com.medappproject" target="_blank"
-                >View on Play Store
+                >Play Store
               </a>
             </button>
           </div>
