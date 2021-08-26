@@ -2,7 +2,7 @@
   <div class="container mx-auto sm:h-full">
     <NavBar />
     <div class="h-full w-full">
-      <img src="../assets/res.png" alt="my resume" />
+      <img src="../assets/resume.png" alt="my resume" />
     </div>
   </div>
 </template>
