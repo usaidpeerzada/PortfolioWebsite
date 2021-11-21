@@ -34,7 +34,6 @@ export default {
 
 <style scoped>
 #download-btn {
-  z-index: 1;
   position: relative;
   top: 40px;
 }
