@@ -1,10 +1,11 @@
 <template>
   <footer class="footer h-10">
-    <p class="text-teal-200"><b>USAID</b> © 2021</p>
+    <p class="text-teal-200"><b>USAID</b> © {{ new Date().getFullYear() }}</p>
   </footer>
 </template>
 
-<script></script>
+<script>
+</script>
 
 <style scoped>
 .footer {
